@@ -25,7 +25,10 @@ export class ToCirthUrlPipe implements PipeTransform {
 
       case 'f': return 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Certh_3.svg';
 
-      case 'k': return 'https://upload.wikimedia.org/wikipedia/commons/6/60/Certh_18.svg';
+      case 'k':
+      case 'c':
+      case 'q':
+        return 'https://upload.wikimedia.org/wikipedia/commons/6/60/Certh_18.svg';
 
       case 'nd': return 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Certh_33.svg';
 
@@ -37,7 +40,9 @@ export class ToCirthUrlPipe implements PipeTransform {
 
       case 'h': return 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Certh_34.svg';
 
-      case 'â': return 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Certh_49.svg';
+      case 'â':
+      case 'á':
+        return 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Certh_49.svg';
 
       case 'hw': return 'https://upload.wikimedia.org/wikipedia/commons/6/62/Certh_5.svg';
 
@@ -107,7 +112,9 @@ export class ToCirthUrlPipe implements PipeTransform {
 
       case 'w': return 'https://upload.wikimedia.org/wikipedia/commons/7/70/Certh_44.svg';
 
-      case '+h': return 'https://upload.wikimedia.org/wikipedia/commons/1/17/Certh_59.svg';
+      case '+h':
+      case '.':
+        return 'https://upload.wikimedia.org/wikipedia/commons/1/17/Certh_59.svg';
 
       case 'sh': return 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Certh_15.svg';
 
